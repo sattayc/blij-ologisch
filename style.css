@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Margarine&display=swap');
+
+@font-face {
+    font-family: margarine;
+    src: url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+}
+
+@font-face {
+    font-family: average sans;
+    src: url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Margarine&display=swap');
+}
+
+* {
+    margin: 0; 
+}
+
+main {   
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    background-color: #FFF0C7;
+    padding: 1vw 8vw;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    padding-top: 1.5em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 1em;
+}
+
+nav li:first-of-type {
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+h1, h2, h3, a {
+    font-family: margarine;
+    line-height: 1.4em;
+    padding: 1em 0em 1em 0em;
+    color: #8B6E4C;
+}
+
+h2, h3 {
+    padding: 0;
+}
+
+nav img {
+    width: 80%;
+    border-radius: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+p {
+    font-family: average sans;
+    line-height: 1.4em;
+    color: #8B6E4C;
+    padding: 1em 0em 1em 0em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5em
+}
+
+.space {
+    padding-top: 1em;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: #FFF0C7;
+    border-radius: 10px;
+}
+
+.tag img {
+    width: 8vw;
+    padding: 0em 1em 0em 1em;
+}
+
+/* On screens that are 600px or more, set the pictures bigger*/
+@media screen and (min-width: 600px) {
+
+    main {   
+        width: 60%;
+        margin: auto;
+        background-color: white;
+    }
+
+    nav img {
+        width: 150%;
+        border-radius: 0;
+        transition: all 0.5s ease;
+    }
+
+    nav img:hover {
+        transform: scale(1.05);
+    }
+
+    nav img:active {
+        transform: translateY(0.6em);
+    }
+
+    ul {
+        gap: 5em;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1.5em;
+    } 
+
+    .tag img {
+        width: 4vw;
+        padding: 0em 1em 0em 1em;
+    }
+
+    .tag a {
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+
+    .tag a:hover {
+        text-decoration: underline;
+    }
+
+    .tag a:active {
+        transform: translateY(0.6em);
+    }
+
+    .tag a:focus {
+        color: #FFF0C7;
+        background-color: #8B6E4C;
+    }
+
+    footer {
+        background-image: url(images/grond-desk.png);
+    }
+
+    footer img {
+        visibility: hidden;
+    }
+
+}
