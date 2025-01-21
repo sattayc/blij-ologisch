@@ -37,7 +37,8 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
-    gap: 1em;
+    gap: 0.25em;
+    align-items: center;
 }
 
 nav li:first-of-type {
