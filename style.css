@@ -55,23 +55,26 @@ h1, h2, h3, a {
     font-family: margarine;
     line-height: 1.4em;
     padding: 1em 0em 1em 0em;
-    color: #8B6E4C;
 }
 
 h1 {
     font-size: 25px;
+    color: #A14A01;
 }
 
 h2 {
     font-size: 20px;
+    color: #857E48;
 }
 
 h3 {
     font-size: 18px;
+    color: #9B833E;
 }
 
 a {
     font-size: 16px;
+    color: #857E48;
 }
 
 h2, h3 {
@@ -121,6 +124,14 @@ p {
     padding: 0em 1em 0em 1em;
 }
 
+footer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    bottom: 0;
+    border-radius: 0;
+}
+
 /* W3C school */
 /* On screens that are 600px or more, set the pictures bigger*/
 @media screen and (min-width: 600px) {
@@ -146,6 +157,18 @@ p {
 
     ul {
         gap: 5em;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    h3, p, a {
+        font-size: 1.5vw;
     }
 
     .flex-row {
