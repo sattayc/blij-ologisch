@@ -23,7 +23,7 @@ main {
 
 header {
     background-color: #FFF0C7;
-    padding: 1vw 8vw;
+    padding: 1vw 3vw;
     position: sticky;
     top: 0;
 }
@@ -58,6 +58,22 @@ h1, h2, h3, a {
     color: #8B6E4C;
 }
 
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+a {
+    font-size: 16px;
+}
+
 h2, h3 {
     padding: 0;
 }
@@ -77,6 +93,7 @@ p {
     line-height: 1.4em;
     color: #8B6E4C;
     padding: 1em 0em 1em 0em;
+    font-size: 16px;
 }
 
 .flex-row {
@@ -104,6 +121,7 @@ p {
     padding: 0em 1em 0em 1em;
 }
 
+/* W3C school */
 /* On screens that are 600px or more, set the pictures bigger*/
 @media screen and (min-width: 600px) {
 
@@ -115,7 +133,6 @@ p {
 
     nav img {
         width: 150%;
-        border-radius: 0;
         transition: all 0.5s ease;
     }
 
@@ -132,9 +149,6 @@ p {
     }
 
     .flex-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
         gap: 1.5em;
     } 
 
