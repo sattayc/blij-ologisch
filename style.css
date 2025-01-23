@@ -2,6 +2,7 @@
 
 * {
     margin: 0; 
+    padding: 0;
 }
 
 main {   
@@ -40,7 +41,7 @@ img {
 }
 
 h1, h2, h3, a {
-    font-family: margarine;
+    font-family:"Margarine", sans-serif;
     line-height: 1.4em;
 }
 
@@ -86,7 +87,7 @@ nav ul {
 }
 
 p {
-    font-family: average sans;
+    font-family: "Average sans", sans-serif;
     line-height: 1.4em;
     color: #654321;
     padding: 1em 0em 1em 0em;
