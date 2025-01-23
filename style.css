@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Margarine&display=swap');
-
-@font-face {
-    font-family: margarine;
-    src: url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
-}
-
-@font-face {
-    font-family: average sans;
-    src: url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Margarine&display=swap');
-}
 
 * {
     margin: 0; 
@@ -48,41 +37,46 @@ img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-
 }
 
 h1, h2, h3, a {
     font-family: margarine;
     line-height: 1.4em;
-    padding: 1em 0em 1em 0em;
 }
 
 h1 {
     font-size: 25px;
-    color: #A14A01;
+    color: #883E01;
+    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+    padding: 1em 0em 1em 0em;
 }
 
 h2 {
     font-size: 20px;
-    color: #857E48;
+    color: #555A1B;
+    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+}
+
+section h2 {
+    padding-bottom: 1em;
 }
 
 h3 {
     font-size: 18px;
-    color: #9B833E;
+    color: #555A1B;
+    text-shadow: 0.5px 0.5px 0.5px #bcad86;
 }
 
 a {
     font-size: 16px;
-    color: #857E48;
-}
-
-h2, h3 {
-    padding: 0;
+    color: #843C01;
+    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+    padding: 1em 0em 1em 0em;
 }
 
 nav img {
     width: 80%;
+    height: auto;
     border-radius: 0;
 }
 
@@ -94,7 +88,7 @@ nav ul {
 p {
     font-family: average sans;
     line-height: 1.4em;
-    color: #8B6E4C;
+    color: #654321;
     padding: 1em 0em 1em 0em;
     font-size: 16px;
 }
@@ -132,8 +126,8 @@ footer img {
     border-radius: 0;
 }
 
-/* W3C school */
-/* On screens that are 600px or more, set the pictures bigger*/
+/* W3Schools.com */
+/* On screens that are 600px or more, set the elements bigger*/
 @media screen and (min-width: 600px) {
 
     main {   
@@ -180,30 +174,22 @@ footer img {
         padding: 0em 1em 0em 1em;
     }
 
-    .tag a {
+    .space a {
         text-decoration: none;
-        transition: all 0.5s ease;
+        transition: all 0.6s ease;
     }
 
-    .tag a:hover {
+    .space a:hover {
         text-decoration: underline;
     }
 
-    .tag a:active {
+    .space a:active {
         transform: translateY(0.6em);
     }
 
-    .tag a:focus {
+    .space a:focus {
         color: #FFF0C7;
         background-color: #8B6E4C;
-    }
-
-    footer {
-        background-image: url(images/grond-desk.png);
-    }
-
-    footer img {
-        visibility: hidden;
     }
 
 }
