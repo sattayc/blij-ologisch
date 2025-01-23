@@ -54,7 +54,7 @@ h1 {
 h2 {
     font-size: 20px;
     color: #555A1B;
-    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+    text-shadow: 0.25px 0.25px 0.25px #bcad86;
 }
 
 section h2 {
@@ -64,13 +64,13 @@ section h2 {
 h3 {
     font-size: 18px;
     color: #555A1B;
-    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+    text-shadow: 0.25px 0.25px 0.25px #bcad86;
 }
 
 a {
     font-size: 16px;
     color: #843C01;
-    text-shadow: 0.5px 0.5px 0.5px #bcad86;
+    text-shadow: 0.25px 0.25px 0.25px #bcad86;
     padding: 1em 0em 1em 0em;
 }
 
